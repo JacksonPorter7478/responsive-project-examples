@@ -56,7 +56,7 @@ body {
 #landing-navbar {
     position: absolute;
     z-index: 10;
-    width: 100vw;
+    width: 100%;
     backface-visibility: 0%;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .section {
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -102,7 +102,7 @@ body {
 .navbar-section {
     background-color: #fff;
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     position: relative;
     box-sizing: border-box;
@@ -127,8 +127,9 @@ h2.title-font {
     font-weight: bold;
     text-transform: uppercase;
     color: #414f6b;
-    width: 100vw;
-    position: absolute;
+    
+    width: 100%;
+    /* position: absolute; */
     padding-top: 120px;
     padding-left: 130px;
 }
@@ -205,7 +206,7 @@ p {
 .section-title {
     background-color: #fff;
     display: block;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 40px;
 }
 
@@ -213,7 +214,7 @@ p {
 .color-bg {
     background-color: rgb(65, 79, 107, 0.5);
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     position: relative;
     box-sizing: border-box;
@@ -223,7 +224,7 @@ p {
 .carousel-cont {
     opacity: 100%;
     padding: 50px 0;
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -295,7 +296,7 @@ td {
 /* footer */
 
 footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
     background: #414f6b;
